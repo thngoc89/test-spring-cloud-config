@@ -118,12 +118,12 @@ jhipster:
         client-authorization:
             client-id: internal
             client-secret: internal
-        authentication:
-            jwt:
+        #authentication:
+           # jwt:
                 # Access Token is valid for 5 mins
-                token-validity-in-seconds: 300
+            #    token-validity-in-seconds: 300
                 # Refresh Token is valid for 7 days
-                token-validity-in-seconds-for-remember-me: 252000
+           #     token-validity-in-seconds-for-remember-me: 252000
     mail: # specific JHipster mail property, for standard properties see MailProperties
         from: uaa@localhost
         base-url: http://localhost:8180/mancenter # Modify according to your server's URL
