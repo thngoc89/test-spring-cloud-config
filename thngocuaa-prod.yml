@@ -36,7 +36,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:oracle:thin:@ora2.vscmt.vn:1521/pdb1.vscmt.vn
         username: test_microservices_uaa
-        password:{cipher}3bfb4edad0c40f76a0dda4258678da8ad3ada417cffa4daa525fd61ccebbba7d
+        password:{cipher}769c2c0d13911f40c59eeefa430b44525fab4c93a87f84a20a829a639873ad97
         hikari:
             auto-commit: false
     jpa:
